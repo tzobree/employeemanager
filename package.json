@@ -4,16 +4,13 @@
   "description": "Vue Employee Firebase Manager",
   "author": "tzobree",
   "private": true,
-  "homepage": "https://tzobree.github.io/employeemanager",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "deploy": "gh-pages -d dist"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "firebase": "^4.8.0",
-    "gh-pages": "^2.0.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
